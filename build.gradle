@@ -27,6 +27,10 @@ dependencies {
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
 }
 
+jar {
+	enabled = false
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
