@@ -27,7 +27,7 @@ dependencies {
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
 }
 
-jar {
+tasks.named("jar") {
 	enabled = false
 }
 
